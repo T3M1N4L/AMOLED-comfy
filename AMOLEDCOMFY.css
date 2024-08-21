@@ -311,3 +311,35 @@
 .autocompleteRowIcon_bcc24e .avatar_c51b4e {
   border-radius: 7px;
 }
+:root .wrapper_c51b4e,
+.theme-dark .container_b2ca13 .wrapper_c51b4e .avatar_c51b4e {
+  border-radius: 50%;
+}
+
+:root .pointerEvents_c51b4e[fill="#f0b232"] {
+  mask-image: url("#svg-mask-status-idle");
+}
+:root .pointerEvents_c51b4e[fill="#23a55a"] {
+  mask-image: url("#svg-mask-status-online");
+}
+:root .pointerEvents_c51b4e[fill="#f23f43"] {
+  mask-image: url("#svg-mask-status-dnd");
+}
+:root .pointerEvents_c51b4e[fill="#80848e"] {
+  mask-image: url("#svg-mask-status-offline");
+}
+
+:root .pointerEvents_c51b4e[fill="#593695"] {
+  mask-image: url("#svg-mask-status-streaming");
+}
+
+:root .channel_c91bad .pointerEvents_c51b4e[width="10"]:not([mask="url(#svg-mask-status-online-mobile)"]),
+:root .members_cbd271 .pointerEvents_c51b4e[width="10"]:not([mask="url(#svg-mask-status-online-mobile)"]),
+:root .avatarWrapper_b2ca13 .pointerEvents_c51b4e,
+:root .peopleListItem_d51464 .pointerEvents_c51b4e[width="10"]:not([mask="url(#svg-mask-status-online-mobile)"]),
+:root .nowPlayingColumn_c2739c .pointerEvents_c51b4e[width="10"]:not([mask="url(#svg-mask-status-online-mobile)"]) {
+  width: 12px;
+  x: 22;
+  y: 22;
+  stroke-width: 0px;
+}
