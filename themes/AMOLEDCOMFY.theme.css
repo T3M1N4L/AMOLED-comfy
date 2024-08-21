@@ -8,7 +8,7 @@
 */
 
 
-@import "https://raw.githubusercontent.com/T3M1N4L/AMOLED-comfy/main/AMOLEDCOMFY.main.css";
+@import "https://raw.githubusercontent.com/T3M1N4L/AMOLED-comfy/main/themes/AMOLEDCOMFY.main.css";
 
 /* ═══════『 ⚠️・Important tips 』═══════
 *
@@ -21,13 +21,13 @@
 */
 
 /* ═══════『 🚫 ・ No scrollbars 』- Comment the line below if you want the scrollbar back */
-@import "https://raw.githubusercontent.com/T3M1N4L/AMOLED-comfy/main/no-scrollbar.css";
+@import "https://raw.githubusercontent.com/T3M1N4L/AMOLED-comfy/main/themes/no-scrollbar.css";
 
 /* ═══════『 🎵 ・ Better SpotifyControls seek bar 』- Comment the line below if you don't want this spotify bar */
-@import "https://raw.githubusercontent.com/T3M1N4L/AMOLED-comfy/main/better-spotify.css";
+@import "https://raw.githubusercontent.com/T3M1N4L/AMOLED-comfy/main/themes/better-spotify.css";
 
 /* ═══════『 🎵 ・ Vencord Spotify Plugin 』- Comment the line below if you don't want this spotify bar FOR VENCORD */
-@import "https://raw.githubusercontent.com/T3M1N4L/AMOLED-comfy/main/vencord-spotify.css";
+@import "https://raw.githubusercontent.com/T3M1N4L/AMOLED-comfy/main/themes/vencord-spotify.css";
 
 :root {
   /* ═══════『 💨 ・ Animations 』- If you don't want a high CPU usage, comment the line below */
@@ -268,7 +268,7 @@
 .appMount_ea7e65:after {
     content: "";
     position: fixed;
-    background: url('https://raw.githubusercontent.com/T3M1N4L/AMOLED-comfy/main/duck.gif') center/10% no-repeat;
+    background: url('https://raw.githubusercontent.com/T3M1N4L/AMOLED-comfy/main/themes/duck.gif') center/10% no-repeat;
     width: 100%; height: 100%;
     opacity: 1;
 }

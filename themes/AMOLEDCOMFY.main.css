@@ -2469,7 +2469,7 @@
   left: calc(50% - 100px);
   width: 200px;
   height: 200px;
-  background: url("https://raw.githubusercontent.com/T3M1N4L/AMOLED-comfy/main/duck.gif") center/80% no-repeat;
+  background: url("https://raw.githubusercontent.com/T3M1N4L/AMOLED-comfy/main/themes/duck.gif") center/80% no-repeat;
 }
 :root .pointerEvents_c51b4e[fill="#23a55a"] {
   fill: var(--online);

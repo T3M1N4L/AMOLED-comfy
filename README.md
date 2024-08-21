@@ -4,12 +4,12 @@
 ### want to use this fork as an alternate?
 
 replace the theme url with this url<br>
-`https://raw.githubusercontent.com/T3M1N4L/AMOLED-comfy/main/AMOLEDCOMFY.theme.css`<br><br>
+`https://raw.githubusercontent.com/T3M1N4L/AMOLED-comfy/main/themes/AMOLEDCOMFY.theme.css`<br><br>
 
 or if you have it installed locally<br>
 replace `https://comfy-themes.github.io/Discord/betterdiscord/main.css`<br>
 
-with `https://raw.githubusercontent.com/T3M1N4L/AMOLED-comfy/main/AMOLEDCOMFY.main.css`<br>
+with `https://raw.githubusercontent.com/T3M1N4L/AMOLED-comfy/main/themes/AMOLEDCOMFY.main.css`<br>
 
 </details>
 
@@ -26,7 +26,7 @@ with `https://raw.githubusercontent.com/T3M1N4L/AMOLED-comfy/main/AMOLEDCOMFY.ma
 
   <br/>
 
-  <a href="https://gibbu.github.io/ThemePreview/?file=https://raw.githubusercontent.com/T3M1N4L/AMOLED-comfy/main/AMOLEDCOMFY.theme.css"><strong>» Theme Preview</strong></a>
+  <a href="https://gibbu.github.io/ThemePreview/?file=https://raw.githubusercontent.com/T3M1N4L/AMOLED-comfy/main/themes/AMOLEDCOMFY.theme.css"><strong>» Theme Preview</strong></a>
   ・
   <a href="https://github.com/Comfy-Themes/Discord/issues">Report an issue</a>
   ・
