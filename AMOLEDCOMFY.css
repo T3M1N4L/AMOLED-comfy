@@ -268,7 +268,7 @@
 .appMount_ea7e65:after {
     content: "";
     position: fixed;
-    background: url('https://raw.githubusercontent.com/T3M1N4L/AMOLED-comfy/main/duck.gif') center/20% no-repeat;
+    background: url('https://raw.githubusercontent.com/T3M1N4L/AMOLED-comfy/main/duck.gif') center/10% no-repeat;
     width: 100%; height: 100%;
     opacity: 1;
 }
