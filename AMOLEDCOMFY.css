@@ -8,7 +8,7 @@
 */
 
 
-@import "https://raw.githubusercontent.com/T3M1N4L/T3M1N4L/main/AMOLEDCOMFY.main.css";
+@import "https://raw.githubusercontent.com/T3M1N4L/AMOLED-comfy/main/AMOLEDCOMFY.main.css";
 
 /* ═══════『 ⚠️・Important tips 』═══════
 *
@@ -21,13 +21,13 @@
 */
 
 /* ═══════『 🚫 ・ No scrollbars 』- Comment the line below if you want the scrollbar back */
-@import "https://comfy-themes.github.io/Discord/betterdiscord/no-scrollbar.css";
+@import "https://raw.githubusercontent.com/T3M1N4L/AMOLED-comfy/main/no-scrollbar.css";
 
 /* ═══════『 🎵 ・ Better SpotifyControls seek bar 』- Comment the line below if you don't want this spotify bar */
-@import "https://comfy-themes.github.io/Discord/betterdiscord/better-spotify.css";
+@import "https://raw.githubusercontent.com/T3M1N4L/AMOLED-comfy/main/better-spotify.css";
 
 /* ═══════『 🎵 ・ Vencord Spotify Plugin 』- Comment the line below if you don't want this spotify bar FOR VENCORD */
-@import "https://comfy-themes.github.io/Discord/betterdiscord/vencord-spotify.css";
+@import "https://raw.githubusercontent.com/T3M1N4L/AMOLED-comfy/main/vencord-spotify.css";
 
 :root {
   /* ═══════『 💨 ・ Animations 』- If you don't want a high CPU usage, comment the line below */
