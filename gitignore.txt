@@ -8,3 +8,4 @@ dist
 .parcel-cache
 package-lock.json
 *.pyc
+__pycache__/
