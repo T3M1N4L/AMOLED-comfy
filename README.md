@@ -1,5 +1,5 @@
 <details>
-<summary id="fork-info">Fork Info</summary>
+<summary id="fork-info">🍴Fork Info</summary>
 
 ### want to use this fork as an alternate?
 
@@ -52,7 +52,7 @@ with `https://raw.githubusercontent.com/T3M1N4L/AMOLED-comfy/main/themes/AMOLEDC
 <div align="left">
     <img align="left" src="https://i.imgur.com/fXYKU5q.png" alt="Vencord" width="45" height="45">
     <b><p align="left">Vencord</b>
-    <br/>Copy <code>https://comfy-themes.github.io/Discord/betterdiscord/comfy.theme.css</code> into the box in Settings > Themes > Online Themes tab
+    <br/>Copy <code>https://raw.githubusercontent.com/T3M1N4L/AMOLED-comfy/main/themes/AMOLEDCOMFY.theme.css</code> into the box in Settings > Themes > Online Themes tab
     <br/>Or upload the file downloaded <a href="https://betterdiscord.app/theme/Comfy">here</a> by clicking Upload Theme in Settings > Themes > Local Themes tab</p>
 </div><br/>
 
