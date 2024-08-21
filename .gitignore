@@ -9,6 +9,7 @@ dist
 package-lock.json
 *.pyc
 __pycache__/
+ClassUpdate/__pycache__/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

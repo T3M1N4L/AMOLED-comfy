@@ -22,7 +22,10 @@ jobs:
           cd ClassUpdate
           
       - name: execute py script # run replace.py
-        run: python replace.py
+        run: |
+          python replace.py
+          y
+          
           
       - name: commit files
         run: |
