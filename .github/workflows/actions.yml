@@ -17,12 +17,9 @@ jobs:
         with:
           python-version: '3.11' # install the python version needed
           
-      - name: cd into ClassUpdate
-        run: |
-          cd ClassUpdate
-          
       - name: execute py script # run replace.py
         run: |
+          cd ClassUpdate
           python replace.py
           y
           
