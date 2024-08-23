@@ -1,8 +1,8 @@
-name: ClassUpdate evyday
+name: ClassUpdate evy12hrs
 
 on:
   schedule:
-    - cron: '0 0 * * *' # At 00:00 everyday
+    - cron: '0 */12 * * *' # every 12 hours
 
 jobs:
   build:
