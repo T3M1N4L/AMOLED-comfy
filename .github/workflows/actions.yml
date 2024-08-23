@@ -19,10 +19,7 @@ jobs:
           
       - name: execute py script # run replace.py
         run: |
-          cd ClassUpdate
-          python replace.py
-          y
-          
+           cd ./ClassUpdate && python ./replace.py DEFAULT -y
           
       - name: commit files
         run: |

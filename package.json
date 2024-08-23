@@ -7,7 +7,7 @@
     "pnpm": ">=8.0.0"
   },
   "scripts": {
-    "class": "cd ./ClassUpdate && python ./replace.py LOCAL -y",
+    "class": "cd ./ClassUpdate && python ./replace.py DEFAULT -y",
     "sass": "sass ./app.scss ./betterdiscord/main.css --no-source-map",
     "build": "replugged build theme",
     "watch": "replugged build theme --watch",

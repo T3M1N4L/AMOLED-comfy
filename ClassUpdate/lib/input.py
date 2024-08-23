@@ -1,3 +1,4 @@
+
 """
 Get parameters from user input.
 """
@@ -5,6 +6,7 @@ Get parameters from user input.
 import configparser
 import glob
 import os.path
+import sys
 
 from lib.format import ind, q
 
@@ -28,8 +30,11 @@ def get_config(config_filename):
         raise FileNotFoundError("Config file not found.")
     raw_config.read(config_filename)
 
-    profile = "DEFAULT"
-    if input(f"Use {q(profile)} profile? [Y/n]\t").lower() == "n":
+    profile =  "DEFAULT"
+    if (len(sys.argv) > 1):
+        profile = sys.argv[1]
+
+    if not "-y" in sys.argv and input(f"Use {q(profile)} profile? [Y/n]\t").lower() == "n":
         profile = input("Config profile name:\t\t")
         profile = try_user(raw_config, profile)
 
@@ -57,6 +62,7 @@ def get_params():
     ), recursive=True)
 
     print(f"\nFound {len(filenames)} {config['ext']} files in {config['dir']}.")
-    input("Press enter to continue or Ctrl+C to cancel.")
+    if not "-y" in sys.argv: 
+        input("Press enter to continue or Ctrl+C to cancel.")
 
     return config["uselocaldiff"], config['location'], filenames
