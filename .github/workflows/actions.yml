@@ -3,32 +3,33 @@ name: ClassUpdate evy12hrs
 on:
   schedule:
     - cron: '0 */12 * * *' # every 12 hours
+  workflow_dispatch: # Allows manual triggering
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
 
-      - name: checkout repo content
-        uses: actions/checkout@v2 # checkout the repository content to github runner
+      - name: Checkout repo content
+        uses: actions/checkout@v2
 
-      - name: setup python
+      - name: Setup Python
         uses: actions/setup-python@v4
         with:
-          python-version: '3.11' # install the python version needed
+          python-version: '3.11'
           
-      - name: execute py script # run replace.py
+      - name: Execute py script
         run: |
            cd ./ClassUpdate && python ./replace.py DEFAULT -y
           
-      - name: commit files
+      - name: Commit files
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add -A
           git diff-index --quiet HEAD || (git commit -a -m "updated logs" --allow-empty)
           
-      - name: push changes
+      - name: Push changes
         uses: ad-m/github-push-action@v0.6.0
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
