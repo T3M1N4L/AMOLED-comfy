@@ -10,6 +10,13 @@ import sys
 
 from lib.format import ind, q
 
+flags, args = [], []
+for s in sys.argv[1:]:
+    if s.startswith('-'):
+        flags.append(s)
+    else:
+        args.append(s)
+
 __all__ = ["get_params"]
 
 
@@ -30,13 +37,17 @@ def get_config(config_filename):
         raise FileNotFoundError("Config file not found.")
     raw_config.read(config_filename)
 
-    profile =  "DEFAULT"
-    if (len(sys.argv) > 1):
-        profile = sys.argv[1]
+    profile = "DEFAULT"
+    if (len(args) != 0):
+        profile = args[0]
 
-    if not "-y" in sys.argv and input(f"Use {q(profile)} profile? [Y/n]\t").lower() == "n":
+    if "-y" not in flags and input(f"Use {q(profile)} profile? [Y/n]\t").lower() == "n":
         profile = input("Config profile name:\t\t")
         profile = try_user(raw_config, profile)
+
+    if profile not in raw_config:
+        print(ValueError(f'unknown profile: "{profile}"'))
+        sys.exit()
 
     config_user = raw_config[profile]
     config = {
@@ -62,7 +73,7 @@ def get_params():
     ), recursive=True)
 
     print(f"\nFound {len(filenames)} {config['ext']} files in {config['dir']}.")
-    if not "-y" in sys.argv: 
+    if '-y' not in flags:
         input("Press enter to continue or Ctrl+C to cancel.")
 
     return config["uselocaldiff"], config['location'], filenames
