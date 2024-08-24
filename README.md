@@ -37,7 +37,7 @@ with `https://raw.githubusercontent.com/T3M1N4L/AMOLED-comfy/main/themes/AMOLEDC
 
   <br/>
 
-  <a href="https://gibbu.github.io/ThemePreview/?file=https://raw.githubusercontent.com/T3M1N4L/AMOLED-comfy/main/themes/AMOLEDCOMFY.theme.css"><strong>» Theme Preview</strong></a>
+  <a href="https://gibbu.github.io/ThemePreview/?file=https://t3m1n4l.github.io/AMOLED-comfy/themes/AMOLEDCOMFY.theme.css"><strong>» Theme Preview</strong></a>
   ・
   <a href="https://github.com/Comfy-Themes/Discord/issues">Report an issue</a>
   ・
