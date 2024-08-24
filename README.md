@@ -1,7 +1,17 @@
 <details>
-<summary id="fork-info">🍴Fork Info</summary>
+<summary id="fork-info"><h1>🍴Fork Info  -  [IMPORTANT!!!!]</h1></summary>
+  
+# What is it?
 
-### want to use this fork as an alternate?
+An AMOLED (Pure black) version of the original comfy theme by Nyria with some extra CSS snippets and automatic class updating with GitHub workflows!
+
+Huge thanks to [Metro420yt](https://github.com/Metro420yt/Discord-comfy) who helped me along the way.
+
+You probably wont like this theme as it is very leaned towards my personal preferences but I automatic class updating is cool!
+
+Feel free to put Themes/AMOLEDCOMFY.theme.css in your quickcss box (if you have it in your discord client) to edit the theme the way how you like it to be!
+
+# Want to use this fork as an alternate?
 
 replace the theme url with this url<br>
 `https://raw.githubusercontent.com/T3M1N4L/AMOLED-comfy/main/themes/AMOLEDCOMFY.theme.css`<br><br>
@@ -10,6 +20,7 @@ or if you have it installed locally<br>
 replace `https://comfy-themes.github.io/Discord/betterdiscord/main.css`<br>
 
 with `https://raw.githubusercontent.com/T3M1N4L/AMOLED-comfy/main/themes/AMOLEDCOMFY.main.css`<br>
+
 
 </details>
 
