@@ -300,7 +300,7 @@
   background: inherit;
   opacity: var(--transparency);
 }
-.userPopoutInner_c69a7b, .userProfileModalInner_c69a7b, .container_c1519f, .fullSizeOverlayBackground_c69a7b, .container_e5a42d, .activityBiteSizePopout_c1d9fd, .statusBubble_d0a252, .statusBubbleOuter_d0a252::before, statusBubble_d0a252.statusBubbleShape_d0a252.statusBubbleSingleLineWithTextShape_d0a252.statusBubbleWithTextPadding_d0a252::after  {
+.userPopoutInner_c69a7b, .userProfileModalInner_c69a7b, .container_c1519f, .fullSizeOverlayBackground_c69a7b, .container_e5a42d, .activityBiteSizePopout_c1d9fd, .statusBubble_d0a252, .statusBubbleOuter_d0a252::before, statusBubble_d0a252.statusBubbleShape_d0a252.statusBubbleSingleLineWithTextShape_d0a252.statusBubbleWithTextPadding_d0a252::after, .biteSizeInner_c69a7b.userProfileInner_c69a7b.biteSizeInnerThemed_c69a7b, .biteSizeOverlayBackground_c69a7b.overlayBackground_c69a7b.card_ae1fa2.activity_b07019  {
   background-color: var(--background-primary) ;
 }
 
@@ -313,5 +313,9 @@
 }
 :root .wrapper_c51b4e,
 .theme-dark .container_b2ca13 .wrapper_c51b4e .avatar_c51b4e {
-  border-radius: 50%;
+  border-radius: 15%;
+}
+circle{
+  border-radius: 10px !important;
+  display: none;
 }
