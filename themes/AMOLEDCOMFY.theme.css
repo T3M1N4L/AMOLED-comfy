@@ -316,11 +316,10 @@
 .theme-dark .container_b2ca13 .wrapper_c51b4e .avatar_c51b4e {
   border-radius: 15%;
 }
-circle{
-  border-radius: 10px !important;
-  display: none;
-}
 
 .statusBubbleOuter_d0a252::after{
   background-color: var(--background-primary) !important;
+}
+.header_b07019 mask, .mask_c3e427 mask {
+  display: none;
 }
