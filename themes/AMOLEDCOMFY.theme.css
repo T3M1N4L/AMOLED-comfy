@@ -281,6 +281,7 @@
   --transparency: .4;
   border-radius: 5px;
 }
+
 .role_f9575e .roleRemoveIcon_e4010c {
   margin: 0;
   left: unset;
@@ -300,7 +301,7 @@
   background: inherit;
   opacity: var(--transparency);
 }
-.userPopoutInner_c69a7b, .userProfileModalInner_c69a7b, .container_c1519f, .fullSizeOverlayBackground_c69a7b, .container_e5a42d, .activityBiteSizePopout_c1d9fd, .statusBubble_d0a252, .statusBubbleOuter_d0a252::before, statusBubble_d0a252.statusBubbleShape_d0a252.statusBubbleSingleLineWithTextShape_d0a252.statusBubbleWithTextPadding_d0a252::after, .biteSizeInner_c69a7b.userProfileInner_c69a7b.biteSizeInnerThemed_c69a7b, .biteSizeOverlayBackground_c69a7b.overlayBackground_c69a7b.card_ae1fa2.activity_b07019  {
+.userPopoutInner_c69a7b, .userProfileModalInner_c69a7b,.root_c83b44, .button_f9d37d.button_dd4f85, .statusBubbleOuter_d0a252::after, .container_c1519f, .fullSizeOverlayBackground_c69a7b, .container_e5a42d, .activityBiteSizePopout_c1d9fd, .statusBubble_d0a252, .statusBubbleOuter_d0a252::before, statusBubble_d0a252.statusBubbleShape_d0a252.statusBubbleSingleLineWithTextShape_d0a252.statusBubbleWithTextPadding_d0a252::after, .biteSizeInner_c69a7b.userProfileInner_c69a7b.biteSizeInnerThemed_c69a7b, .biteSizeOverlayBackground_c69a7b.overlayBackground_c69a7b.card_ae1fa2.activity_b07019  {
   background-color: var(--background-primary) ;
 }
 
@@ -318,4 +319,8 @@
 circle{
   border-radius: 10px !important;
   display: none;
+}
+
+.statusBubbleOuter_d0a252::after{
+  background-color: var(--background-primary) !important;
 }
