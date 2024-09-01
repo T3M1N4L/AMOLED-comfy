@@ -40,6 +40,11 @@
 *    ℹ️ : If you want to revert those to the old area, join the support server and check #css-snippets
 *
 */
+  /*The duck*/
+  --loader-url:url(https://raw.githubusercontent.com/T3M1N4L/AMOLED-comfy/main/themes/duck.gif);
+
+  /*The discord logo reaplce*/
+  --discord-logo-replace:url(https://raw.githubusercontent.com/T3M1N4L/DiscordLogos/main/controller_foreground.webp);
 
   /* Spacing - Default value : 8px */
   --user-buttons-spacing: 8px !important;
@@ -184,7 +189,7 @@
     height: 60px;
     background-size: contain;
     background-position: center;
-    background-image: url(https://raw.githubusercontent.com/T3M1N4L/DiscordLogos/main/controller_foreground.webp);
+    background-image: var(--discord-logo-replace);
 }
 :root .autocomplete_bcc24e {
   background: #000;
@@ -268,7 +273,7 @@
 .appMount_ea7e65:after {
     content: "";
     position: fixed;
-    background: url('https://raw.githubusercontent.com/T3M1N4L/AMOLED-comfy/main/themes/duck.gif') center/10% no-repeat;
+    background: var(--loader-url);
     width: 100%; height: 100%;
     opacity: 1;
 }
