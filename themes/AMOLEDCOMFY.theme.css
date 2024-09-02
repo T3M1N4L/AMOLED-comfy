@@ -29,6 +29,7 @@
 /* ═══════『 🎵 ・ Vencord Spotify Plugin 』- Comment the line below if you don't want this spotify bar FOR VENCORD */
 @import "https://raw.githubusercontent.com/T3M1N4L/AMOLED-comfy/main/themes/vencord-spotify.css";
 
+
 :root {
   /* ═══════『 💨 ・ Animations 』- If you don't want a high CPU usage, comment the line below */
   --disable-animations: 2s channel-unread infinite;
@@ -40,10 +41,12 @@
 *    ℹ️ : If you want to revert those to the old area, join the support server and check #css-snippets
 *
 */
+
   /*The duck*/
+
   --loader-url:url(https://raw.githubusercontent.com/T3M1N4L/AMOLED-comfy/main/themes/duck.gif);
 
-  /*The discord logo reaplce*/
+  /*The discord logo replace*/
   --discord-logo-replace:url(https://raw.githubusercontent.com/T3M1N4L/DiscordLogos/main/controller_foreground.webp);
 
   /* Spacing - Default value : 8px */
@@ -76,10 +79,10 @@
   /* ═══════『 📜 Server/channel list 』═══════ */
 
   /* Mention - Default value : #F04747 */
-  --mention-color: #ae83ff !important;
+  --mention-color: #8a4bff !important;
 
   /* Unread - Default value : #7289DA */
-  --unread-color: #ffacac !important;
+  --unread-color: #ff7676 !important;
 
   /*  『 🔴 Mention colors in chat 』 */
 
@@ -123,7 +126,7 @@
   /* ═══════『 🔰 User popout 』═══════ */
 
   /* Playing wave color */
-  --playing: #a784ff !important;
+  --playing: #8426ff !important;
 
   /* Listening wave color */
   --listening: #52ef89 !important;
@@ -189,7 +192,7 @@
     height: 60px;
     background-size: contain;
     background-position: center;
-    background-image: var(--discord-logo-replace);
+    background-image: url(https://raw.githubusercontent.com/T3M1N4L/DiscordLogos/main/controller_foreground.webp);
 }
 :root .autocomplete_bcc24e {
   background: #000;
@@ -273,7 +276,7 @@
 .appMount_ea7e65:after {
     content: "";
     position: fixed;
-    background: var(--loader-url);
+    background: var(--loader-url) center/10% no-repeat;
     width: 100%; height: 100%;
     opacity: 1;
 }

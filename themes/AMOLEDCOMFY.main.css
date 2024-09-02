@@ -441,13 +441,16 @@
 }
 :root .message_d5deea.mentioned_d5deea {
   background-color: var(--mention-color-background);
+
 }
 :root .message_d5deea.mentioned_d5deea::before {
   background: var(--mention-color-bar);
+
   padding: 1px;
 }
 :root .message_d5deea.mentioned_d5deea:hover {
   background-color: var(--mention-color-hover) !important;
+
 }
 :root .wrapper_ed5275:not([style]) {
   position: relative;
@@ -753,10 +756,13 @@
 :root .unreadMentionsIndicatorTop_fea3ef .unreadMentionsBar_fea3ef {
   border-radius: 0;
   background: linear-gradient(var(--mention-color), rgba(0, 0, 0, 0));
+
   transition: 100ms;
 }
 :root .unreadMentionsIndicatorTop_fea3ef .unreadMentionsBar_fea3ef:active {
   background: linear-gradient(var(--mention-color), rgba(0, 0, 0, 0));
+    box-shadow: 0 0 15px 3px var(--mention-color);
+
 }
 :root .unreadMentionsIndicatorBottom_fea3ef {
   width: 100%;
@@ -766,9 +772,11 @@
 :root .unreadMentionsIndicatorBottom_fea3ef .unreadMentionsBar_fea3ef {
   border-radius: 0;
   background: linear-gradient(rgba(0, 0, 0, 0), var(--mention-color));
+    box-shadow: 0 0 15px 3px var(--mention-color);
 }
 :root .unreadMentionsIndicatorBottom_fea3ef .unreadMentionsBar_fea3ef:active {
   background: linear-gradient(rgba(0, 0, 0, 0), var(--mention-color));
+    box-shadow: 0 0 15px 3px var(--mention-color);
 }
 :root .lowerBadge_c5f96a {
   top: 0;
@@ -776,6 +784,7 @@
 }
 :root .lowerBadge_c5f96a .numberBadge__40d6f {
   background-color: var(--mention-color) !important;
+    box-shadow: 0 0 15px 3px var(--mention-color);
 }
 :root .lowerBadge_c5f96a .numberBadge__40d6f::before {
   content: "";
@@ -915,10 +924,12 @@
 :root .unreadTop__6e8c4 .unreadBar_c43953.mention_edf32f {
   border-radius: 0;
   background: linear-gradient(var(--mention-color), rgba(0, 0, 0, 0));
+    box-shadow: 0 0 15px 3px var(--mention-color);
 }
 :root .unreadTop__6e8c4 .unreadBar_c43953.unread_edf32f {
   border-radius: 0;
   background: linear-gradient(var(--unread-color), rgba(0, 0, 0, 0));
+  box-shadow: 0 0 15px 3px var(--unread-color);
 }
 :root .unreadBottom__6be9f {
   width: 100%;
@@ -928,16 +939,19 @@
 :root .unreadBottom__6be9f .unreadBar_c43953.mention_edf32f {
   border-radius: 0;
   background: linear-gradient(rgba(0, 0, 0, 0), var(--mention-color));
+    box-shadow: 0 0 15px 3px var(--mention-color);
 }
 :root .unreadBottom__6be9f .unreadBar_c43953.unread_edf32f {
   border-radius: 0;
   background: linear-gradient(rgba(0, 0, 0, 0), var(--unread-color));
+  box-shadow: 0 0 15px 3px var(--unread-color);
 }
 :root .unreadBar_c43953 > .text_edf32f {
   display: none;
 }
 :root .mentionsBadge_e2a798 .numberBadge__40d6f {
   background-color: var(--mention-color) !important;
+  box-shadow: 0 0 15px 3px var(--mention-color);
 }
 :root .mentionsBadge_e2a798 .numberBadge__40d6f::before {
   content: "";
@@ -949,6 +963,10 @@
   z-index: -1;
   animation: var(--disable-animations), 2s pulse infinite;
   will-change: transform;
+    display: block;
+    box-shadow: 0 0 20px 4px var(--selected-indicator);
+    left: -9px;
+    top: 13px;
 }
 :root .unread_d8bfb3 {
   top: 50%;
@@ -957,6 +975,7 @@
   height: 6px;
   z-index: 1;
   background-color: var(--unread-color);
+  box-shadow: 0 0 15px 3px var(--unread-color);
   border-radius: 10px;
   margin-top: 0;
   transform: translate(0%, -50%);
