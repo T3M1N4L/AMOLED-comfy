@@ -761,7 +761,7 @@
 }
 :root .unreadMentionsIndicatorTop_fea3ef .unreadMentionsBar_fea3ef:active {
   background: linear-gradient(var(--mention-color), rgba(0, 0, 0, 0));
-    box-shadow: 0 0 15px 3px var(--mention-color);
+
 
 }
 :root .unreadMentionsIndicatorBottom_fea3ef {
@@ -772,11 +772,11 @@
 :root .unreadMentionsIndicatorBottom_fea3ef .unreadMentionsBar_fea3ef {
   border-radius: 0;
   background: linear-gradient(rgba(0, 0, 0, 0), var(--mention-color));
-    box-shadow: 0 0 15px 3px var(--mention-color);
+
 }
 :root .unreadMentionsIndicatorBottom_fea3ef .unreadMentionsBar_fea3ef:active {
   background: linear-gradient(rgba(0, 0, 0, 0), var(--mention-color));
-    box-shadow: 0 0 15px 3px var(--mention-color);
+
 }
 :root .lowerBadge_c5f96a {
   top: 0;
@@ -784,7 +784,7 @@
 }
 :root .lowerBadge_c5f96a .numberBadge__40d6f {
   background-color: var(--mention-color) !important;
-    box-shadow: 0 0 15px 3px var(--mention-color);
+
 }
 :root .lowerBadge_c5f96a .numberBadge__40d6f::before {
   content: "";
@@ -924,7 +924,7 @@
 :root .unreadTop__6e8c4 .unreadBar_c43953.mention_edf32f {
   border-radius: 0;
   background: linear-gradient(var(--mention-color), rgba(0, 0, 0, 0));
-    box-shadow: 0 0 15px 3px var(--mention-color);
+
 }
 :root .unreadTop__6e8c4 .unreadBar_c43953.unread_edf32f {
   border-radius: 0;
@@ -939,7 +939,7 @@
 :root .unreadBottom__6be9f .unreadBar_c43953.mention_edf32f {
   border-radius: 0;
   background: linear-gradient(rgba(0, 0, 0, 0), var(--mention-color));
-    box-shadow: 0 0 15px 3px var(--mention-color);
+
 }
 :root .unreadBottom__6be9f .unreadBar_c43953.unread_edf32f {
   border-radius: 0;
