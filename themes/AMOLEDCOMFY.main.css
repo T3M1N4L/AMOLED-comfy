@@ -334,7 +334,7 @@
 :root .buttons_d5deea {
   transition: opacity 150ms;
 }
-:root .panels_a4d4d9 > .container_b2ca13 > .avatarWrapper_b2ca13 {
+/* :root .panels_a4d4d9 > .container_b2ca13 > .avatarWrapper_b2ca13 {
   position: fixed;
   bottom: 26.5px;
   left: 327.5px;
@@ -361,12 +361,25 @@
   width: 12px;
   height: 12px;
 }
-:root .panels_a4d4d9 > .container_b2ca13 > .avatarWrapper_b2ca13 > .avatar_b2ca13:hover {
-  opacity: 1;
-}
 :root .panels_a4d4d9 > .container_b2ca13 > .avatarWrapper_b2ca13 > .avatar_b2ca13 + .nameTag_b2ca13 {
   display: none;
 }
+*/
+:root .panels_a4d4d9 > .container_b2ca13 > .avatarWrapper_b2ca13 > .avatar_b2ca13 .pointerEvents_c51b4e{
+  x: 23px;
+  y: 23px;
+  ry: var(--status-radius);
+  /* width: 12px;
+  height: 12px; */
+}
+#app-mount > div.appAsidePanelWrapper_bd26cc > div.notAppAsidePanel_bd26cc > div.app_bd26cc > div > div.layers_d4b6c5.layers_a01fb1 > div > div > div > div > div.sidebar_a4d4d9 > section > div.container_b2ca13 > div.avatarWrapper_b2ca13 > div.wrapper_c51b4e.avatar_b2ca13 > svg.mask_c51b4e.svg_c51b4e > svg > rect {
+  x: 9px;
+  y: 7px
+}
+:root .panels_a4d4d9 > .container_b2ca13 > .avatarWrapper_b2ca13 > .avatar_b2ca13:hover {
+  opacity: 1;
+}
+
 :root .content_a4d4d9 > :nth-child(2):not(.chat_a7d72e),
 :root .callContainer_ed4410,
 :root .gatedContent_def860,
@@ -381,7 +394,7 @@
 :root .chat_a7d72e > .content_a7d72e > .container_a6d69a > .list_a6d69a[data-list-id^=forum-channel-list] {
   background-color: var(--background-primary);
 }
-:root .chat_a7d72e .form_a7d72e {
+/* :root .chat_a7d72e .form_a7d72e {
   padding-left: 66px;
 }
 :root .chat_a7d72e .form_a7d72e .wrapper_faf5ab {
@@ -397,11 +410,12 @@
   height: 40px;
   background-color: var(--background-secondary);
   border-radius: calc(var(--avatar-radius) + 2px);
+} */
+/* Remving the attach button wrapper */
+.attachWrapper_f298d4 {
+  display: none;
 }
-:root .typing_d7ebeb {
-  left: 66px;
-  right: 26px;
-}
+
 :root .lookFilled-yCfaCM.colorPrimary-2AuQVo,
 :root .lookFilled-yCfaCM.colorPrimary-2AuQVo:hover {
   background-color: var(--brand-experiment);
@@ -723,9 +737,9 @@
 :root .panels_a4d4d9 {
   z-index: 2;
 }
-:root .panels_a4d4d9 > .container_b2ca13 {
+/* :root .panels_a4d4d9 > .container_b2ca13 {
   height: 0;
-}
+} */
 :root .panels_a4d4d9 > .container_b2ca13 > .flex_dc333f {
   position: fixed;
   bottom: 0;
