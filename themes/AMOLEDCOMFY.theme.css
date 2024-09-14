@@ -271,6 +271,16 @@
 .channelTextArea_a7d72e .buttons_d0696b > * { position: relative; top: -44px;}
 .channelTextArea_a7d72e:hover .buttons_d0696b > * { top: 0;}
 
+.appMount_ea7e65 .app_bd26cc { opacity: 0; transition: 0.15s;}
+.appMount_ea7e65:hover .app_bd26cc { opacity: 1; transition: 0.15s;}
+.appMount_ea7e65:after {
+    content: "";
+    position: fixed;
+    background: var(--loader-url) center/10% no-repeat;
+    width: 100%; height: 100%;
+    opacity: 1;
+}
+.appMount_ea7e65:hover:after { opacity: 0; pointer-events: none;}
 
 .role_f9575e {
   transform: translate(0);
