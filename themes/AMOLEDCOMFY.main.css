@@ -936,6 +936,7 @@
 }
 :root .mentionsBadge_e2a798 .numberBadge__40d6f {
   background-color: var(--mention-color) !important;
+  box-shadow: 0 0 15px 3px var(--mention-color);
 }
 :root .mentionsBadge_e2a798 .numberBadge__40d6f::before {
   content: "";
@@ -947,6 +948,7 @@
   z-index: -1;
   animation: var(--disable-animations), 2s pulse infinite;
   will-change: transform;
+  box-shadow: 0 0 15px 3px var(--mention-color);
 }
 :root .unread_d8bfb3 {
   top: 50%;
@@ -2533,7 +2535,7 @@
   left: calc(50% - 100px);
   width: 200px;
   height: 200px;
-  background: url("https://comfy-themes.github.io/Discord/assets/bonfire.gif") center/80% no-repeat;
+  background: var(--loader-url) center/80% no-repeat;
 }
 :root .pointerEvents_c51b4e[fill="#23a55a"] {
   fill: var(--online);
