@@ -1,4 +1,3 @@
-
 """
 String formatting utils.
 """
