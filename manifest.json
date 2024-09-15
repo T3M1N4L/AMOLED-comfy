@@ -1,20 +1,20 @@
 {
-  "id": "t3rm1n4l.amoledcomfy",
-  "name": "AMOLED-Comfy",
+  "id": "nyria.comfy",
+  "name": "Comfy",
   "description": "Stay comfy while talking to your friends",
   "author": {
-    "name": "T3RM1N4L",
-    "discordID": "861917446750863402",
-    "github": "T3M1N4L"
+    "name": "Nyria",
+    "discordID": "265924886461939712",
+    "github": "NYRI4"
   },
   "version": "2.4.2",
   "updater": {
     "type": "store",
-    "id": "t3rm1n4l.amoledcomfy"
+    "id": "nyria.comfy"
   },
   "license": "WTFPL",
   "image": "https://i.imgur.com/NVEvM5z.png",
-  "source": "https://github.com/T3M1N4L/AMOLED-comfy",
+  "source": "https://github.com/Comfy-Themes/Discord",
   "type": "replugged-theme",
-  "main": "themes/amoledcomfy.theme.css"
+  "main": "betterdiscord/comfy.theme.css"
 }
