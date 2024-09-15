@@ -917,6 +917,7 @@
 :root .unreadTop__6e8c4 .unreadBar_c43953.unread_edf32f {
   border-radius: 0;
   background: linear-gradient(var(--unread-color), rgba(0, 0, 0, 0));
+  box-shadow: 0 0 15px 3px var(--unread-color);
 }
 :root .unreadBottom__6be9f {
   width: 100%;
@@ -930,6 +931,7 @@
 :root .unreadBottom__6be9f .unreadBar_c43953.unread_edf32f {
   border-radius: 0;
   background: linear-gradient(rgba(0, 0, 0, 0), var(--unread-color));
+  box-shadow: 0 0 15px 3px var(--unread-color);
 }
 :root .unreadBar_c43953 > .text_edf32f {
   display: none;
