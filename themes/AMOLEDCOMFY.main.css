@@ -438,7 +438,6 @@
 }
 :root .message_d5deea.mentioned_d5deea {
   background-color: var(--mention-color-background);
-  box-shadow: 0 0 15px 3px var(--mention-color);
 }
 :root .message_d5deea.mentioned_d5deea::before {
   background: var(--mention-color-bar);
