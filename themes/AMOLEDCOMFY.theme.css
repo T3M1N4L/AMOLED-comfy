@@ -23,9 +23,6 @@
 /* ═══════『 🚫 ・ No scrollbars 』- Comment the line below if you want the scrollbar back */
 @import "https://raw.githubusercontent.com/T3M1N4L/AMOLED-comfy/main/themes/no-scrollbar.css";
 
-/* ═══════『 🎵 ・ Better SpotifyControls seek bar 』- Comment the line below if you don't want this spotify bar */
-@import "https://raw.githubusercontent.com/T3M1N4L/AMOLED-comfy/main/themes/better-spotify.css";
-
 /* ═══════『 🎵 ・ Vencord Spotify Plugin 』- Comment the line below if you don't want this spotify bar FOR VENCORD */
 @import "https://raw.githubusercontent.com/T3M1N4L/AMOLED-comfy/main/themes/vencord-spotify.css";
 
@@ -104,7 +101,7 @@
 *   ℹ️ : If you don't have the plugin : https://betterdiscord.app/plugin/SpotifyControls */
 
   /* Default value : #1EDC62 */
-  --spotify-color: #2db15f !important;
+  --spotify-color: #90ffb7 !important;
 
   /* ═══════『 🟢 Status 』═══════ */
 
@@ -129,7 +126,7 @@
   --playing: #8426ff !important;
 
   /* Listening wave color */
-  --listening: #52ef89 !important;
+  --listening: #2db15f !important;
 
   /* Role circle - Default value : 5px */
   --role-circle: 5px !important;
@@ -143,9 +140,10 @@
 .theme-dark {
   --background-primary: #000000 !important;
   --background-secondary: #000000 !important;
-  --background-secondary-alt: #000000 !important;
+  --background-secondary-alt: #000000  !important;
   --background-tertiary: #000000 !important;
   --background-accent: #872bff !important;
+
 
   --modal-background: #000000 !important;
   --background-mobile-primary: #000000 !important;
@@ -164,6 +162,7 @@
   --scrollbar-thin-thumb: #141925 !important;
   --activity-card-background: #101320 !important;
   --input-background: #1e2233 !important;
+  --translucency-color: #131313;
 }
 
 .theme-light {
@@ -310,7 +309,7 @@
   background: inherit;
   opacity: var(--transparency);
 }
-.userPopoutInner_c69a7b, .userProfileModalInner_c69a7b,.root_e6f2d0, .button_f9d37d.button_dd4f85, .statusBubbleOuter_d0a252::after, .container_ecc04c, .fullSizeOverlayBackground_c69a7b, .container_b64375, .activityBiteSizePopout_c1d9fd, .statusBubble_d0a252, .statusBubbleOuter_d0a252::before, statusBubble_d0a252.statusBubbleShape_d0a252.statusBubbleSingleLineWithTextShape_d0a252.statusBubbleWithTextPadding_d0a252::after, .biteSizeInner_c69a7b.userProfileInner_c69a7b.biteSizeInnerThemed_c69a7b, .biteSizeOverlayBackground_c69a7b.overlayBackground_c69a7b.card_ae1fa2.activity_b8cc6d, .buttonsInner_d5deea.popover_e986d9.popoverReactionHoverBar_e986d9.wrapper_f7e168  {
+.userPopoutInner_c69a7b, .userProfileModalInner_c69a7b,.inner_d0696b,.root_e6f2d0, .button_f9d37d.button_dd4f85, .statusBubbleOuter_d0a252::after, .container_ecc04c, .fullSizeOverlayBackground_c69a7b, .container_b64375, .activityBiteSizePopout_c1d9fd, .statusBubble_d0a252, .statusBubbleOuter_d0a252::before, statusBubble_d0a252.statusBubbleShape_d0a252.statusBubbleSingleLineWithTextShape_d0a252.statusBubbleWithTextPadding_d0a252::after, .biteSizeInner_c69a7b.userProfileInner_c69a7b.biteSizeInnerThemed_c69a7b, .biteSizeOverlayBackground_c69a7b.overlayBackground_c69a7b.card_ae1fa2.activity_b8cc6d, .buttonsInner_d5deea.popover_e986d9.popoverReactionHoverBar_e986d9.wrapper_f7e168  {
   background-color: var(--background-primary) ;
 }
 
