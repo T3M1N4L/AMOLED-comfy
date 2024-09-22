@@ -109,7 +109,7 @@
   --online: #84ffc8 !important;
 
   /* Idle - Default value : #FAA61A */
-  --iddle: #ffd07f !important;
+  --idle: #ffd07f !important;
 
   /* Do Not Disturb - Default value : #F04747 */
   --dnd: #ff8484 !important;
@@ -157,11 +157,11 @@
   --background-floating: #000000 !important;
   --deprecated-quickswitcher-input-background: #101320 !important;
   --elevation-low: none !important;
-  --scrollbar-auto-thumb: #121722 !important;
-  --scrollbar-auto-track: #191f2e !important;
-  --scrollbar-thin-thumb: #141925 !important;
+  --scrollbar-auto-thumb: #0a0a0a !important;
+  --scrollbar-auto-track: #0a0a0a !important;
+  --scrollbar-thin-thumb: #0a0a0a !important;
   --activity-card-background: #101320 !important;
-  --input-background: #1e2233 !important;
+  --input-background: #000000 !important;
   --translucency-color: #131313;
 }
 
