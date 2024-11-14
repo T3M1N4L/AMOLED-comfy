@@ -106,13 +106,13 @@
   /* ═══════『 🟢 Status 』═══════ */
 
   /* Online - Default value : #43B581 */
-  --online: #84ffc8 !important;
+  --online: #40ff80 !important;
 
   /* Idle - Default value : #FAA61A */
-  --idle: #ffd07f !important;
+  --idle: #ffc562 !important;
 
   /* Do Not Disturb - Default value : #F04747 */
-  --dnd: #ff8484 !important;
+  --dnd: #ff4848 !important;
 
   /* Offline - Default value : #747F8D */
   --offline: #1b1c1f !important;
